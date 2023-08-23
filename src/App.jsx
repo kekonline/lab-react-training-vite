@@ -15,6 +15,7 @@ import Dice from "./components/Dice";
 import Carousel from "./components/Carousel";
 import NumbersTable from "./components/NumbersTable";
 import FaceBook from "./components/FaceBook";
+import SignupPage from "./components/SignupPage";
 
 const user1 = {
   firstName: "Doe",
@@ -126,20 +127,13 @@ function App() {
         ]}
       />
 
-<br />
+      <br />
 
-<NumbersTable limit={12} />
+      <NumbersTable limit={12} />
+      <br />
+      <FaceBook />
 
-<FaceBook />
-
-
-
-
-
-
-
-
-
+      <SignupPage />
     </div>
   );
 }
